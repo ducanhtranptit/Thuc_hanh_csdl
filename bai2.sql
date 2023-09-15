@@ -1,3 +1,4 @@
+-- Tạo table `Khoa` và `Sinh_vien`
 CREATE TABLE
   `Khoa` (
     `ma` varchar(4) PRIMARY KEY NOT NULL,
