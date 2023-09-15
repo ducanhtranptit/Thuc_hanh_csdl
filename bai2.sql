@@ -44,3 +44,8 @@ WHERE
 
 -- Tạo index cho cột "dienthoai" của bảng "Sinh_vien"
 CREATE INDEX `idx_sinhvien_dienthoai` ON `Sinh_vien` (`dienthoai`);
+
+
+
+CREATE USER 'user02'@'dblab' IDENTIFIED BY '123456';
+GRANT INSERT ON Thuc_hanh_csdl_01.sinhvien TO 'user02'@'dblab';

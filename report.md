@@ -42,20 +42,21 @@
 
 ![Alt text](/img/2.3.png)
 
-## 2.4. Mở độ rộng cho cột dienthoai để có lưu số điện thoại có cả
+## 2.4. Mở độ rộng cho cột dienthoai để có lưu số điện thoại có cả mã vùng và số máy nội bộ.
 
-mã vùng và số máy nội bộ.
 ![Alt text](/img/2.4.png)
 
-## 2.5. Bổ sung constraint cho bảng sinhvien để (tên, ngày sinh)
+## 2.5. Bổ sung constraint cho bảng sinhvien để (tên, ngày sinh) không trùng nhau.
 
-không trùng nhau.
 ![Alt text](/img/2.5.png)
 
-## 2.6. Tạo một view chỉ cho hiển thị sinh viên của một khoa có mã
+## 2.6. Tạo một view chỉ cho hiển thị sinh viên của một khoa có mã nhất định
 
-nhất định
 ![Alt text](/img/2.6.png)
+
+## 2.7. Gán quyền cho người dùng dblab.user02 có quyền thêm bản ghi vào bảng sinhvien
+
+![Alt text](/img/2.7.png)
 
 ## 2.8. Tạo thêm index cho cột dienthoai của bảng sinhvien.
 
