@@ -42,10 +42,10 @@ FROM
 WHERE
   `Khoa`.`ma` = 'CNTT';
 
+-- Gán quyền cho người dùng dblab.user02 có quyền thêm bản ghi vào bảng sinhvien
+CREATE USER 'user02.dblab' IDENTIFIED BY '123456';
+
+GRANT INSERT ON Thuc_hanh_csdl_01.sinhvien TO 'user02.dblab';
+
 -- Tạo index cho cột "dienthoai" của bảng "Sinh_vien"
 CREATE INDEX `idx_sinhvien_dienthoai` ON `Sinh_vien` (`dienthoai`);
-
-
-
-CREATE USER 'user02'@'dblab' IDENTIFIED BY '123456';
-GRANT INSERT ON Thuc_hanh_csdl_01.sinhvien TO 'user02'@'dblab';
