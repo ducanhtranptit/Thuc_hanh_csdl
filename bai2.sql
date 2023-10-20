@@ -19,7 +19,7 @@ ALTER TABLE `Sinh_vien` ADD FOREIGN KEY (`makhoa`) REFERENCES `Khoa` (`ma`);
 
 -- Bổ sung cột "dienthoai" cho bảng "Sinh_vien"
 ALTER TABLE `Sinh_vien`
-ADD COLUMN `dienthoai` varchar(20);
+ADD COLUMN `dienthoai` varchar(15);
 
 -- Mở rộng độ dài cho cột "dienthoai"
 ALTER TABLE `Sinh_vien` MODIFY COLUMN `dienthoai` varchar(20);

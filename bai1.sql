@@ -9,7 +9,7 @@ SHOW DATABASES;
 SHOW TABLES;
 
 -- 1.4. Hiển thị cấu trúc của một table (ví dụ: "mytable"):
-DESCRIBE mytable;
+DESCRIBE khoa;
 
 -- 1.5. Hiển thị user đang kết nối:
 SELECT
